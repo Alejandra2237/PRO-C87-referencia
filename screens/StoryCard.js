@@ -39,13 +39,14 @@ export default class StoryCard extends Component {
   }
 
   render() {
+    let story = this.state.story_data;
     if (this.state.fontsLoaded) {
       SplashScreen.hideAsync();
       return (
         <TouchableOpacity
           style={styles.container}
           onPress={() =>
-            this.props.navigation.navigate("PantallaDeHistoria", {
+            this.props.navigation.navigate("StoryScreen", {
               story: this.props.story
             })
           }

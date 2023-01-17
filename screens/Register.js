@@ -54,7 +54,7 @@ export default class RegisterScreen extends Component {
       .then((userCredential) => {
         Alert.alert("¡¡Usuario registrado!!");
         console.log(userCredential.user.uid)
-        this.props.navigation.replace("InicioSesion");
+        this.props.navigation.replace("Login");
         firebase.database().ref("/users/" + userCredential.user.uid)
                 .set({
                   email: userCredential.user.email,

@@ -49,7 +49,7 @@ export default class LoginScreen extends Component {
       .auth()
       .signInWithEmailAndPassword(email, password)
       .then(() => {
-        this.props.navigation.replace("Panel");
+        this.props.navigation.replace("Feed");
       })
       .catch(error => {
         Alert.alert(error.message);

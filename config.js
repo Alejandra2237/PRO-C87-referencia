@@ -1,8 +1,9 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyCUw7o6TEhBZVlXyxWzyIbAdvjnm13WTOI",
-  authDomain: "storytellingapp-52386.firebaseapp.com",
-  projectId: "storytellingapp-52386",
-  storageBucket: "storytellingapp-52386.appspot.com",
-  messagingSenderId: "169067545995",
-  appId: "1:169067545995:web:55571d03a9f684bee79b8e"
-  };
+  apiKey: "AIzaSyB6GFnzl54Gq6hOTBiacaMV5mUepvksPo8",
+  authDomain: "historias-5a05f.firebaseapp.com",
+  databaseURL: "https://historias-5a05f-default-rtdb.firebaseio.com",
+  projectId: "historias-5a05f",
+  storageBucket: "historias-5a05f.appspot.com",
+  messagingSenderId: "782494806047",
+  appId: "1:782494806047:web:4a616e2304eda8aaf1a52a"
+};

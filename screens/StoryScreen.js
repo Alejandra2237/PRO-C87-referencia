@@ -60,7 +60,7 @@ export default class StoryScreen extends Component {
 
   render() {
     if (!this.props.route.params) {
-      this.props.navigation.navigate("Home");
+      this.props.navigation.navigate("Feed");
     } else if (this.state.fontsLoaded) {
       SplashScreen.hideAsync();
       return (
